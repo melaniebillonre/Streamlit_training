@@ -66,8 +66,6 @@ authenticator.login(
     fields={'Form name': 'Connexion', 'Username': 'Nom d\'utilisateur', 'Password': 'Mot de passe'}
 )
 
-st.text("Tester avec utilisateur et utilisateurMDP")
-
 # On récupère les états depuis st.session_state
 authentication_status = st.session_state.get("authentication_status")
 name = st.session_state.get("name") 
@@ -95,3 +93,4 @@ elif authentication_status is False:
     
 elif authentication_status is None:
     st.warning('Veuillez entrer votre nom d\'utilisateur et mot de passe')
+    st.text("Tester avec utilisateur et utilisateurMDP")
