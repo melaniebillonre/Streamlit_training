@@ -1,5 +1,5 @@
 username,password,email,failed_login_attempts,logged_in,role
-alice,pass123,alice@example.com,0,False,user
+utilisateur,utilisateurMDP,alice@example.com,0,False,user
 bob,azerty,bob@example.com,1,True,admin
 charlie,hello123,charlie@example.com,3,False,user
 diane,password,diane@example.com,0,False,user
