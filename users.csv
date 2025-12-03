@@ -1,0 +1,11 @@
+username,password,email,failed_login_attempts,logged_in,role
+alice,pass123,alice@example.com,0,False,user
+bob,azerty,bob@example.com,1,True,admin
+charlie,hello123,charlie@example.com,3,False,user
+diane,password,diane@example.com,0,False,user
+eric,123456,eric@example.com,2,True,moderator
+fatima,testpass,fatima@example.com,0,False,user
+george,pass789,george@example.com,4,False,user
+hannah,qwerty,hannah@example.com,1,True,user
+ivan,userpass,ivan@example.com,0,False,admin
+julia,login123,julia@example.com,2,False,user
